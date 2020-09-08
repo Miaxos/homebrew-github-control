@@ -10,7 +10,7 @@ class GithubControl < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--release", "--bin", "github-control"
+    system "cargo", "build", "--verbose", "--release", "--bin", "github-control"
     bin.install "target/release/github-control"
   end
 end
