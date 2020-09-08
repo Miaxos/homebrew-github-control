@@ -5,7 +5,7 @@ class GithubControl < Formula
   desc "Github control center for your pull requests" 
   homepage "https://github.com/Miaxos/github-control"
   url "https://github.com/Miaxos/github-control/archive/0.2.0.tar.gz"
-  sha256 "3bbaf188fa4014a57596c4d4f928b75bdf42c058220424ae46b94f3a36b61f81"
+  sha256 "d9390dea31c88603ef7e7da10d3aaff8975af947b197ed644929f338865ba1fb"
   version "0.2.0"
   depends_on "rust" => :build
 
